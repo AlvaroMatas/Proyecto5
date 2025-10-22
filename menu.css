@@ -145,3 +145,18 @@ div:is(.platos__principales--1, .platos__principales--2, .platos__principales--3
     text-align: center;
 }
 
+.plato-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h6{
+    background-color: rosybrown;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
