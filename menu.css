@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
 }
 
 html, body {
@@ -127,13 +128,14 @@ footer{
     margin: 40px auto;
 }
 
-.titulo-principales{
+h3:is(.titulo-segundos, .titulo-principales, .titulo-postres){
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(168, 168, 168, 0.8);
     padding: 20px;
     border-radius: 15px;
     max-width: 300px;
     margin: 40px auto;
+    font-weight: bold;
 }
 
 .platos__principales{
@@ -144,7 +146,7 @@ footer{
     margin-top: 30px;
 }
 
-div:is(.platos__principales--1, .platos__principales--2, .platos__principales--3, .platos__principales--4, .platos__principales--5){
+div:is(.platos__principales--1, .platos__principales--2, .platos__principales--3, .platos__principales--4, .platos__principales--5, .platos__segundos--1, .platos__segundos--2, .platos__segundos--3, .platos__segundos--4, .platos__segundos--5, .platos__postres--1, .platos__postres--2, .platos__postres--3, .platos__postres--4){
     background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
     border-radius: 10px;
@@ -169,4 +171,14 @@ h6{
     margin: auto;
     margin-top: 10px;
 }
+
+div:is(.platos__segundos, .platos__postres){
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+
 
