@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #5c7c58;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
